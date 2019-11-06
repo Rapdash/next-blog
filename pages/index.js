@@ -42,7 +42,7 @@ const IndexPage = () => (
             <Col xs={{ span: 12 }} xl={{ span: 6 }}>
               <img width="100%" height="350px" alt="picture representing the article" src="/images/article1.jpeg" />
               <div className="button-wrapper">
-                <Button  className="bg-green mt-3 mb-3" block>
+                <Button  className="bg-green mt-4 mb-4" block>
                   <h3 className="text-black">Get Started</h3>
                 </Button>
               </div>
