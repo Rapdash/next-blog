@@ -1,5 +1,5 @@
 import { Layout } from "../components";
-import { Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button, FormControl, Form } from "react-bootstrap";
 import Link from "next/link"
 
 const IndexPage = () => (
@@ -53,7 +53,18 @@ const IndexPage = () => (
         </Link>
       </Col>
       <Col className="display-none display-lg-2 mt-4">
-        test
+        <Card style={{ border: "none"}}>  
+          <Card.Header className="bg-black">
+            <Card.Title className="text-white" style={{ fontSize: "25px"}}>Updates From Someone Who's Been There:</Card.Title>
+            <Card.Subtitle className="text-green" style={{ fontSize: "20px"}}>Join My Mailing List</Card.Subtitle>
+            <Card.Body className="bg-black">
+              <Form onSubmit={(e) => e.preventDefault()}>
+                <FormControl onChange={(event) => {}} placeholder="Email" type="email" />
+                <Button block className="bg-green mt-3 text-black">Sign Up</Button>
+              </Form>
+            </Card.Body>
+          </Card.Header>
+        </Card>
       </Col>
     </Row>
   </Layout>
