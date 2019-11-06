@@ -16,8 +16,16 @@ const IndexPage = () => (
                 <Card.Title className="text-white">
                   Start Here: Why You Need This Blog
                 </Card.Title>
-                <Card.Subtitle className="text-green">Published Nov. 6, 2019 - 0 Comments</Card.Subtitle>
+                <Card.Subtitle className="text-green">
+                  Published Nov. 6, 2019 - 0 Comments
+                </Card.Subtitle>
               </Card.Header>
+              <Card.Body>
+                Test
+              </Card.Body>
+            </Col>
+            <Col xs={{ span: 12 }} lg={{ span: 6 }}>
+              <img width="100%" height="300px" alt="picture representing the article" src="/images/hero.jpeg" />
             </Col>
           </Row>
         </Card>

@@ -16,3 +16,10 @@
 .no-link-hover:hover {
   text-decoration: none;
 }
+
+
+/* Card CSS Overrides */
+.card-body {
+  font-family: 'roboto';
+  color: white;
+}
