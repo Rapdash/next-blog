@@ -36,9 +36,11 @@ export const Navbar = () => (
         </Nav.Item>
       </Nav>
       <Nav className="ml-auto">
-        <Nav.Item>
-          <Link passHref href="">
-            <Button style={{ backgroundColor: "rgb(0, 255, 0)", color: "black" }}>Contact About Coaching</Button>
+        <Nav.Item style={{ background: "black"}}>
+          <Link passHref href="/">
+            <a>
+              <Button className="navbar-button">Contact About Coaching</Button>
+            </a>
           </Link>
         </Nav.Item>
       </Nav>

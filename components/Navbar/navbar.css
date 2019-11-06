@@ -16,6 +16,22 @@
   font-size: 25px;
 }
 
-.navbar-link {
+/* The !importants on the next two classes are neccesary to
+override bootstrap without too much digging */
+.navbar-button {
+  color: black !important;
+  background-color: rgb(0, 255, 0) !important;
+  outline: none;
+}
+.navbar-button:hover {
+  background-color: rgba(0, 255, 0, .9) !important;
+}
+
+.nav-link {
   font-family: 'roboto';
+}
+
+.nav-item:hover {
+  /* Hacky, I know. Didn't want to figure out the % system again */
+  background: linear-gradient(to bottom, white, black, black, black, white);
 }
