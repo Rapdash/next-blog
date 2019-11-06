@@ -29,10 +29,11 @@
   color: rgb(0, 255, 0);
 }
 
-.card-body {
+.card-text {
   font-family: 'roboto';
   color: white;
 }
-.card-text {
 
+.button-wrapper {
+  margin: 10px;
 }
