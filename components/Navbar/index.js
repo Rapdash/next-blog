@@ -4,7 +4,7 @@ import Link from "next/link"
 import "./navbar.css";
 
 export const Navbar = () => (
-  <BSNavbar expand="md" variant="dark">
+  <BSNavbar fixed="top" expand="md" variant="dark">
 
     <Link href="/" passHref>
       <BSNavbar.Brand>

@@ -1,12 +1,13 @@
 import React from 'react';
+import { Container } from "react-bootstrap";
 import { Navbar } from '../Navbar';
 
 
 export const Layout = ({ children }) => (
   <>
     <Navbar />
-    <section style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
+    <Container fluid>
       {children}
-    </section>
+    </Container>
   </>
 );
