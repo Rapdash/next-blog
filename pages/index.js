@@ -1,5 +1,7 @@
-import { Hero, Page } from "../components";
+import { Layout } from "../components";
 
 export default () => (
-
+  <Layout>
+    
+  </Layout>
 )
