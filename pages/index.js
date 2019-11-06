@@ -5,8 +5,8 @@ import Link from "next/link"
 const IndexPage = () => (
   <Layout>
     {/* Margin is for the navbar */}
-    <Row className="mt-4">
-      <Col xs={{ span: 12 }} sm={{ span: 10, offset: 1 }} lg={{ span: 7, offset: 1 }} >
+    <Row>
+      <Col xs={{ span: 12 }} sm={{ span: 10, offset: 1 }} lg={{ span: 7, offset: 1 }} className="mt-4">
         <Link href={"/articles/1"} passHref>
         <a className="no-link-hover">
         <Card className="bg-black">
@@ -27,13 +27,15 @@ const IndexPage = () => (
                   morning at 5:30 AM to go to the gym & lift weights to keep my body in great shape.
                   <br/>
                   <br/>
-                  I sound like a total prick, right? Here's the thing... 
-                  I also have what was once called Asperger's Disorder. I used to be unemployed, fat & hopeless.
-                  Now I'm not, and my life is infinitely better than it was.
+                  I sound like a total prick, right? <strong>Here's the thing...</strong> I 
+                  also have what was once called Asperger's Disorder. I used to be unemployed, fat & hopeless.
+                  Now I'm none of those, and my life is so much better than it was.
                   <br/>
                   <br/>
                   I can show you how to hack your disability so that it works for you, not against you.
-                  Jobs, Fitness, Girlfriends? I'll teach you how. Ready to get started?
+                  Jobs, Fitness, Girlfriends? 
+                  <br/>
+                  <strong>I'll teach you how.</strong> Ready to get started?
                 </Card.Text>
               </Card.Body>
             </Col>
@@ -50,7 +52,7 @@ const IndexPage = () => (
         </a>
         </Link>
       </Col>
-      <Col className="display-none display-lg-2">
+      <Col className="display-none display-lg-2 mt-4">
         test
       </Col>
     </Row>

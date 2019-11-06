@@ -19,6 +19,10 @@
 
 
 /* Card CSS Overrides */
+.card {
+  box-shadow: 5px 5px 10px;
+}
+
 .card-title {
   text-align: center;
   color: white;
