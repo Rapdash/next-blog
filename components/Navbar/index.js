@@ -1,12 +1,13 @@
 import { Navbar as BSNavbar, Nav} from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import Link from "next/link"
 
 export const Navbar = () => (
   <BSNavbar>
-    <LinkContainer>
+
+    <Link href="/">
       <BSNavbar.Brand>
-        test
-      </BSNavbar.Brand>>
-    </LinkContainer>
+          rest
+      </BSNavbar.Brand>
+    </Link>
   </BSNavbar>
 )
