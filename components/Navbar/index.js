@@ -8,7 +8,7 @@ export const Navbar = () => (
 
     <Link href="/">
       <BSNavbar.Brand>
-          Test
+        <span style={{ color: 'white'}}>Hack</span>Aspergers
       </BSNavbar.Brand>
     </Link>
   </BSNavbar>

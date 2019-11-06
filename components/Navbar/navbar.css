@@ -1,9 +1,21 @@
 .navbar {
-  background: linear-gradient(to right, darkred 55%, gold 95%);
+  background-color: black;
 }
 
 @media screen and (max-width: 769px) {
   .navbar {
-    background: darkred;
+    background: black;
   }
+}
+
+
+.navbar-brand {
+  color: rgb(0, 255, 0) !important;
+  font-family: 'Russo One';
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.navbar-link {
+  font-family: 'roboto';
 }
