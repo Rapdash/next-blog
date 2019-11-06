@@ -39,7 +39,7 @@ export const Navbar = () => (
         <Nav.Item style={{ background: "black"}}>
           <Link passHref href="/">
             <a>
-              <Button className="navbar-button">10 Steps To A Girlfriend: FREE GUIDE</Button>
+              <Button className="navbar-button">5 Steps To A Girlfriend: FREE GUIDE</Button>
             </a>
           </Link>
         </Nav.Item>
