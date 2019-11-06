@@ -15,8 +15,8 @@ export const Navbar = () => (
     <BSNavbar.Collapse>
       <Nav>
         <Nav.Item>
-          <Link passHref href="/">
-            <Nav.Link active>Home</Nav.Link>
+          <Link passHref href="/article/1">
+            <Nav.Link active>Start Here</Nav.Link>
           </Link>
         </Nav.Item>
         <Nav.Item>
@@ -39,7 +39,7 @@ export const Navbar = () => (
         <Nav.Item style={{ background: "black"}}>
           <Link passHref href="/">
             <a>
-              <Button className="navbar-button">Contact About Coaching</Button>
+              <Button className="navbar-button">10 Steps To A Girlfriend: FREE GUIDE</Button>
             </a>
           </Link>
         </Nav.Item>
