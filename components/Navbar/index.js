@@ -1,12 +1,14 @@
 import { Navbar as BSNavbar, Nav} from "react-bootstrap";
 import Link from "next/link"
 
+import "./navbar.css";
+
 export const Navbar = () => (
-  <BSNavbar>
+  <BSNavbar variant="dark">
 
     <Link href="/">
       <BSNavbar.Brand>
-          rest
+          Test
       </BSNavbar.Brand>
     </Link>
   </BSNavbar>
