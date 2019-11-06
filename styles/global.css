@@ -12,3 +12,7 @@
 .text-black {
   color: black !important;
 }
+
+.no-link-hover:hover {
+  text-decoration: none;
+}

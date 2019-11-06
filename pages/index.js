@@ -7,18 +7,22 @@ const IndexPage = () => (
     {/* Margin is for the navbar */}
     <Row>
       <Col xs={{ span: 12 }} sm={{ span: 10, offset: 1 }} lg={{ span: 7, offset: 1 }} className="mt-4">
-        <Link href={"/articles/1"} passHref>
-        <a>
-          <Card>
-            <Card.Header className="bg-black">
-              <Card.Title className="text-white">
-                Start Here: Why You Need This Blog
-              </Card.Title>
-              <Card.Subtitle className="text-green">Published Nov. 6, 2019 - 0 Comments</Card.Subtitle>
-            </Card.Header>
-          </Card>
-        </a>
-        </Link>
+        <Row>
+          <Col>
+            <Link href={"/articles/1"} passHref>
+            <a className="no-link-hover">
+              <Card>
+                <Card.Header className="bg-black">
+                  <Card.Title className="text-white">
+                    Start Here: Why You Need This Blog
+                  </Card.Title>
+                  <Card.Subtitle className="text-green">Published Nov. 6, 2019 - 0 Comments</Card.Subtitle>
+                </Card.Header>
+              </Card>
+            </a>
+            </Link>
+          </Col>
+        </Row>
       </Col>
     </Row>
   </Layout>
