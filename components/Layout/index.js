@@ -6,7 +6,7 @@ import { Navbar } from '../Navbar';
 export const Layout = ({ children }) => (
   <>
     <Navbar />
-    <Container fluid>
+    <Container style={{ marginTop: 63 }} fluid>
       {children}
     </Container>
   </>

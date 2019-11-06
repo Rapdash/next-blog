@@ -1,12 +1,15 @@
 import { Layout } from "../components";
 import { Row, Col } from "react-bootstrap";
 
-export default () => (
+const IndexPage = () => (
   <Layout>
-    <Row style={{ marginTop: 65 }}>
+    {/* Margin is for the navbar */}
+    <Row>
       <Col xs={{ span: 12 }} sm={{ span: 10, offset: 1 }} lg={{ span: 7, offset: 1 }} style={{ backgroundColor: "gray" }}>
         
       </Col>
     </Row>
   </Layout>
 )
+
+export default IndexPage
