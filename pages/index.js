@@ -13,19 +13,19 @@ const IndexPage = () => (
           <Row>
             <Col xs={{ span: 12 }} lg={{ span: 6 }}>
               <Card.Header>
-                <Card.Title className="text-white">
+                <Card.Title>
                   Start Here: Why You Need This Blog
                 </Card.Title>
-                <Card.Subtitle className="text-green">
+                <Card.Subtitle>
                   Published Nov. 6, 2019 - 0 Comments
                 </Card.Subtitle>
               </Card.Header>
               <Card.Body>
-                Test
+                <Card.Text>Hey! I'm Fritz. I have a great job working as a </Card.Text>
               </Card.Body>
             </Col>
             <Col xs={{ span: 12 }} lg={{ span: 6 }}>
-              <img width="100%" height="300px" alt="picture representing the article" src="/images/hero.jpeg" />
+              <img width="100%" height="300px" alt="picture representing the article" src="/images/article1.jpeg" />
             </Col>
           </Row>
         </Card>
